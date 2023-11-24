@@ -1,0 +1,26 @@
+import React, {useState} from 'react';
+function MyComponent() {
+  // Initialize state with multiple arrays
+  const [state, setState] = useState({
+    array1: [1, 2, 3],
+    array2: ['a', 'b', 'c'],
+  });
+  // Function to update both arrays
+  const updateArrays = () => {
+    // Create a copy of the state
+    const updatedState = {...state};
+    // Update the copy with new values for the arrays
+    updatedState.array1 = [...updatedState.array1, 4];
+    updatedState.array2 = [...updatedState.array2, 'd'];
+    // Set the state with the updated copy
+    setState(updatedState);
+  };
+  return (
+    <div>
+      <p>Array 1: {state.array1.join(', ')}</p>
+      <p>Array 2: {state.array2.join(', ')}</p>
+      <button onClick={updateArrays}>Update Arrays</button>
+    </div>
+  );
+}
+export default MyComponent;

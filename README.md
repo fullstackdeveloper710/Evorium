@@ -1,6 +1,6 @@
 # Previews Screens
 
-<p float="left" style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+<div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
 <img src="./previews/1.jpg " alt="Local Image" width="300" height="600">
 <img src="./previews/2.jpg " alt="Local Image" width="300" height="600">
 <img src="./previews/3.jpg " alt="Local Image"  width="300" height="600">
@@ -10,4 +10,4 @@
 <img src="./previews/7.jpg " alt="Local Image"  width="300" height="600">
 <img src="./previews/8.jpg " alt="Local Image"  width="300" height="600">
 <img src="./previews/9.jpg " alt="Local Image"  width="300" height="600">
-</p>
+</div>

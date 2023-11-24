@@ -10,5 +10,5 @@
 <img src="./previews/7.jpg " alt="Local Image"  width="300" height="600">
 <img src="./previews/8.jpg " alt="Local Image"  width="300" height="600">
 <img src="./previews/9.jpg " alt="Local Image"  width="300" height="600">
-<img src="./previews/10.jpg " alt="Local Image"  width="300" height="600">
+<img src="./previews/10.png " alt="Local Image"  width="300" height="600">
 </div>

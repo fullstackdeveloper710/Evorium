@@ -1,6 +1,6 @@
 # Previews Screens
 
-<p float="left">
+<p float="left" style="display: flex; justify-content: space-between; margin-bottom: 20px;">
 <img src="./previews/1.jpg " alt="Local Image" width="300" height="600">
 <img src="./previews/2.jpg " alt="Local Image" width="300" height="600">
 <img src="./previews/3.jpg " alt="Local Image"  width="300" height="600">
